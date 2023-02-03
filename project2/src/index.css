@@ -1,0 +1,133 @@
+.alert p {
+  margin-bottom: 0!important;
+}
+body {
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  
+  background: linear-gradient(to left, #9bba1e, #62a837); 
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header {
+  margin: 30px 0;
+}
+.contenido {
+  padding:20px;
+}
+.contenido-principal {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.presupuesto p{
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.presupuesto p span {
+  font-weight: normal;
+}
+#gastos {
+  margin-bottom: 30px;
+}
+.h1Copy {
+  font-family: 'Island Moments', sans-serif;
+  font-weight: 200;
+  color: black;
+  text-align: center;
+  font-size: 10rem!important;
+}
+h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 200;
+  color: black;
+  text-align: center;
+  font-size: 4.7rem!important;
+}
+h4 {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 100;
+  color: black;
+  text-align: center;
+  font-size: 3.7rem!important;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color:#02203a;
+  margin-bottom:30px;
+  font-size:3rem!important;
+  text-align: center;
+}
+.campo {
+  margin-bottom: 2rem;
+}
+.error {
+  text-align: center;
+}
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.alert-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.alert-success2 {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #38f865;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size:2rem!important;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #b12f3c;
+}
+.alert-danger2 {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #e40d22;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size:2rem!important;
+}
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+.gastos-realizados  {
+  margin-bottom: 2rem;
+}
+.gastos-realizados li{
+  list-style: none;
+  margin-bottom: 0rem;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 1rem 0;
+}
+.gastos-realizados li:last-of-type {
+  margin-bottom: 0!important;
+}
+.gastos-realizados li p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0;
+}
+.gastos-realizados li p .gasto {
+  background-color: #004085;
+  padding: 1rem;
+  color:white;
+}
